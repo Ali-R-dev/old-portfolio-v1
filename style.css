@@ -6,3 +6,79 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ :root {
+    --grad-1: rgb(109,81,195);
+    --grad-2: rgb(216,130,71);
+    --transition:all 0.5s ease-in-out;
+  }
+  html{
+    line-height: 1.15;
+  }
+  body{
+    margin:0;
+    padding: 0;
+    background: #1d1d20;
+    color: #d1d1d1;
+
+  }
+  .container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.gradient1{
+    stop-color:var(--grad-1);
+    transition: var(--transition);
+}
+.gradient2{
+    stop-color:var( --grad-2);
+    transition: var(--transition);
+}
+html:hover .gradient1{
+    stop-color:var( --grad-2);
+}
+html:hover .gradient2{
+    stop-color:var( --grad-1);
+}
+.wrapper_t_svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.wrapper_b_svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+/* ------------------------------------------------- */
+.container_main{
+    padding: 20px;
+    
+}
+.container_inner{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(42, 109, 109);
+    
+}
+/* -------------------------------------------------------- */
+header{
+    display: flex;
+}
+.logo{
+    width: 30px;
+    height: 40px;
+    /* transform: rotateX(45deg); */
+    /* background-color: green; */
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    display: list-item;
+    
+}
