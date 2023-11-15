@@ -8,7 +8,7 @@ I'm a passionate Fullstack developer who enjoys coding.
 - Frameworks: React, .Net
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&count_private=true&hide=contribs,prs)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ali-R-dev&show_icons=true&count_private=true&hide=contribs,prs)
 
 ## 🎨 Customization
 Feel free to customize the appearance and layout of this README to make it your own!
@@ -23,10 +23,10 @@ Feel free to customize the appearance and layout of this README to make it your 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&hide=html" alt="Top Languages">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ali-R-dev&layout=compact&hide=html" alt="Top Languages">
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=your-username&theme=dracula" alt="GitHub Trophies">
+  <img src="https://github-profile-trophy.vercel.app/?username=Ali-R-dev&theme=dracula" alt="GitHub Trophies">
 </p>
 
