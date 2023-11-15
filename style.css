@@ -7,8 +7,8 @@
  * 
  */
  :root {
-    --grad-1:  rgb(198,60,178);
-    --grad-2: rgb(51,162,69);
+    --grad-1:  rgb(200,54,126);
+    --grad-2: rgb(121,178,57);
     --grad-border-1:linear-gradient(45deg, var(--grad-2), var(--grad-1)) 1;
     --grad-border-2:linear-gradient(45deg, var(--grad-1), var(--grad-2)) 1;
     --transition:all 0.5s ease-in-out;
@@ -111,6 +111,12 @@ ul{
 li{
     display: list-item;
     
+}
+.social svg {
+    fill: var(--color);
+}
+.codewars:hover svg{
+    fill:#f05656;
 }
 /* ------------------------------------------------- */
 .content_main{
